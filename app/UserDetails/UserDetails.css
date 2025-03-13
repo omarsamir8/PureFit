@@ -1,0 +1,50 @@
+.UserDetails{
+    padding: 20px 5%;
+    text-align: center;
+    background-color: rgb(248, 245, 239);
+    height: 54.1vh;
+}
+.UserDetails h2{
+    color:rgb(2, 122, 2);
+    font-size: 30px;
+}
+form {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form input{
+    width: 49%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: rgb(179, 178, 178);
+    font-size: 17px;
+}
+form button{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(2, 122, 2);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .UserDetails{
+        height: 80vh;
+    }
+    form{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+}

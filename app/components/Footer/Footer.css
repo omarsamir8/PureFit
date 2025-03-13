@@ -1,0 +1,82 @@
+.footer{
+    padding: 20px 5% ;
+    background-color: rgb(1, 83, 1);
+   
+}
+.footer-contact{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.footer-contact h2{
+    color: rgb(2, 122, 2);
+}
+.footer-contact .contact{
+    border: 1px solid rgb(2, 122, 2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.footer-contact .contact input{
+    padding: 10px 40px 10px 10px;
+    border: none;
+    outline: none;
+}
+.footer-contact .contact button{
+    border: none;
+    outline: none;
+    background-color: rgb(2, 122,2);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-contact .contact button:hover{
+    background-color: rgb(2, 85, 2);
+}
+.footer-links,.footer-links2{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+
+}
+.footer-links ul,.footer-links2 ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: white;
+}
+.footer-links .ul2 ,.footer-links2 .ul2{
+    gap: 35px;
+}
+.footer-links ul li:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-contact{
+        flex-direction: column;
+    }
+    .footer-contact .contact{
+        margin-top: 10px;
+    }
+    .footer-contact .contact button{
+        width: 100%;
+    }
+    .footer-links ul{
+        flex-direction: column;
+    }
+    .footer-links2{
+        flex-direction: column;
+    }
+    .footer-links2 ul{
+        flex-direction: row;
+        margin-top: 10px;
+        /* align-items: flex-start;
+        gap: 10px; */
+        justify-content: space-between;
+    }
+}

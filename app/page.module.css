@@ -166,3 +166,6 @@ a.secondary {
     filter: invert();
   }
 }
+button:hover{
+  background-color: rgb(2, 85, 2);
+}

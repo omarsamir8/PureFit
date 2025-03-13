@@ -1,0 +1,70 @@
+.plan{
+    padding: 20px 5%;
+}
+.plan h2{
+    text-align: center;
+    color:rgb(2, 122, 2);
+    font-size: 40px;
+    width: 70%;
+    margin: auto;
+}
+.day1{
+    margin-bottom: 50px;
+}
+.day1 h3{
+    color:rgb(2, 122, 2);
+    font-weight: bold;
+    font-size: 23px;
+}
+.foodcontainer{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.foodcontainer img{
+    width: 35%;
+  
+}
+.foodcontainer .f-right{
+    width: 60%;
+}
+.foodcontainer .f-right p{
+    margin-top: 10px;
+    color: rgb(102, 101, 101);
+    width: 70%;
+}
+.foodcontainer .f-right h4{
+    color:rgb(2, 122, 2);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.foodcontainer .f-right ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 500px) {
+    .plan h2{
+        width: 100%;
+        font-size: 26px;
+    }
+    .foodcontainer{
+        flex-direction: column;
+    }
+    .foodcontainer .f-right{
+        width: 100%;
+    }
+    .foodcontainer img{
+        width: 100%;
+    }
+    .foodcontainer .f-right p{
+        width: 100%;
+    }
+    .foodcontainer .f-right ul{
+        column-gap: 30px;
+        row-gap: 0px;
+    }
+}

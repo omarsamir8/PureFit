@@ -1,0 +1,45 @@
+.Potential{
+    text-align: center;
+    padding: 20px 5%;
+    background-color: rgb(248, 245, 239);
+}
+.Potential h2{
+    width: 80%;
+    font-size: 40px;
+    margin: auto;
+    color: rgb(2, 122, 2);
+}
+.sol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.sol div{
+    width: 25%;  
+}
+.sol div h3{
+    font-size: 25px;
+    color: rgb(2, 122, 2);
+}
+.sol div p{
+    font-size:18px;
+     color: rgb(119, 118, 118);
+     width: 100%;
+     margin: auto;
+     text-align: center;
+    
+}
+@media screen and (max-width: 500px) {
+    .Potential h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .sol{
+        flex-direction: column;
+    }
+    .sol div{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
