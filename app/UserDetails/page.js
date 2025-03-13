@@ -3,7 +3,7 @@ export const metadata = {
     description: "Enter Your Details And The Weight You Want To Reach",
   };
 
-import Form from'next/Form'
+  import React from "react";
 import './UserDetails.css'
 import Link from 'next/link'
 export default function UserDetails(){
@@ -11,7 +11,7 @@ export default function UserDetails(){
         <>
         <div className="UserDetails">
             <h2>Welcom To PureFit Please Fill Out This Form</h2>
-            <Form>
+            <form>
                 <input type='text' placeholder='Your Name'/>
                 <input type='number' placeholder='Your Age'/>
                 <input type='number' placeholder='Your Hieght'/>
@@ -20,7 +20,7 @@ export default function UserDetails(){
                 <Link href='/SelectProgram'>
                     <button >Expolre Our Program</button>
                 </Link>    
-            </Form>
+            </form>
         </div>
         </>
     )
