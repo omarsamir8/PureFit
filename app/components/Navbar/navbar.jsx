@@ -32,10 +32,10 @@ export default function Navbar() {
 
             {/* زر لإظهار وإخفاء القائمة في الشاشات الصغيرة */}
             {isMobile && (
-                <button className="menu-button" onClick={() => setShowMenu(!showMenu)}>
-                    {showMenu ? "Close Menu" : "Open Menu"}
-                </button>
-            )}
+    <button className="menu-button" onClick={() => setShowMenu(!showMenu)}>
+        {showMenu ? "☰" : "☰"}
+    </button>
+)}
 
             {/* قائمة التنقل */}
             {showMenu && (
